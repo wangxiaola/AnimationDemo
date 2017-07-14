@@ -14,6 +14,10 @@
 		3B61427B1F18683700237B63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B6142791F18683700237B63 /* LaunchScreen.storyboard */; };
 		3B6142841F18686100237B63 /* XLHomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6142831F18686100237B63 /* XLHomeTableViewController.m */; };
 		3B6142B61F18691A00237B63 /* XLAdsorptionBallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6142B51F18691A00237B63 /* XLAdsorptionBallViewController.m */; };
+		3B6142B91F18732700237B63 /* XLAdsorptionBallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6142B81F18732700237B63 /* XLAdsorptionBallView.m */; };
+		3B6142BC1F18975600237B63 /* XLPointMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6142BB1F18975600237B63 /* XLPointMode.m */; };
+		3B6142BF1F18979500237B63 /* XLLineMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6142BE1F18979500237B63 /* XLLineMode.m */; };
+		3B6142C21F1897EE00237B63 /* XlAdsorptionBallBaseMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6142C11F1897EE00237B63 /* XlAdsorptionBallBaseMode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,14 @@
 		3B6142831F18686100237B63 /* XLHomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLHomeTableViewController.m; sourceTree = "<group>"; };
 		3B6142B41F18691A00237B63 /* XLAdsorptionBallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLAdsorptionBallViewController.h; sourceTree = "<group>"; };
 		3B6142B51F18691A00237B63 /* XLAdsorptionBallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLAdsorptionBallViewController.m; sourceTree = "<group>"; };
+		3B6142B71F18732700237B63 /* XLAdsorptionBallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLAdsorptionBallView.h; sourceTree = "<group>"; };
+		3B6142B81F18732700237B63 /* XLAdsorptionBallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLAdsorptionBallView.m; sourceTree = "<group>"; };
+		3B6142BA1F18975600237B63 /* XLPointMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPointMode.h; sourceTree = "<group>"; };
+		3B6142BB1F18975600237B63 /* XLPointMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPointMode.m; sourceTree = "<group>"; };
+		3B6142BD1F18979500237B63 /* XLLineMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLLineMode.h; sourceTree = "<group>"; };
+		3B6142BE1F18979500237B63 /* XLLineMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLLineMode.m; sourceTree = "<group>"; };
+		3B6142C01F1897EE00237B63 /* XlAdsorptionBallBaseMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XlAdsorptionBallBaseMode.h; sourceTree = "<group>"; };
+		3B6142C11F1897EE00237B63 /* XlAdsorptionBallBaseMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XlAdsorptionBallBaseMode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,12 @@
 		3B6142B01F18691A00237B63 /* mode */ = {
 			isa = PBXGroup;
 			children = (
+				3B6142C01F1897EE00237B63 /* XlAdsorptionBallBaseMode.h */,
+				3B6142C11F1897EE00237B63 /* XlAdsorptionBallBaseMode.m */,
+				3B6142BA1F18975600237B63 /* XLPointMode.h */,
+				3B6142BB1F18975600237B63 /* XLPointMode.m */,
+				3B6142BD1F18979500237B63 /* XLLineMode.h */,
+				3B6142BE1F18979500237B63 /* XLLineMode.m */,
 			);
 			path = mode;
 			sourceTree = "<group>";
@@ -119,6 +137,8 @@
 		3B6142B21F18691A00237B63 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				3B6142B71F18732700237B63 /* XLAdsorptionBallView.h */,
+				3B6142B81F18732700237B63 /* XLAdsorptionBallView.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -205,9 +225,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B6142B61F18691A00237B63 /* XLAdsorptionBallViewController.m in Sources */,
+				3B6142BC1F18975600237B63 /* XLPointMode.m in Sources */,
 				3B6142701F18683700237B63 /* AppDelegate.m in Sources */,
+				3B6142B91F18732700237B63 /* XLAdsorptionBallView.m in Sources */,
 				3B61426D1F18683700237B63 /* main.m in Sources */,
+				3B6142BF1F18979500237B63 /* XLLineMode.m in Sources */,
 				3B6142841F18686100237B63 /* XLHomeTableViewController.m in Sources */,
+				3B6142C21F1897EE00237B63 /* XlAdsorptionBallBaseMode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +390,7 @@
 				3B6142811F18683700237B63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -32,7 +32,11 @@
     self.tableView.tableFooterView = [[UIView alloc] init];
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
     self.view.backgroundColor = [UIColor groupTableViewBackgroundColor];
+    
+
 }
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
