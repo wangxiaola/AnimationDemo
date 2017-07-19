@@ -21,7 +21,9 @@
 {
     if (!_dataArray)
     {
-        _dataArray = [NSMutableArray arrayWithObjects:@{@"name":@"吸附小球",@"class":@"XLAdsorptionBallViewController"}, nil];
+        _dataArray = [NSMutableArray arrayWithObjects:
+  @{@"name":@"吸附小球",@"class":@"XLAdsorptionBallViewController"},
+  @{@"name":@"视图更新动画",@"class":@"XLViewUpdataViewController"},nil];
     }
     return _dataArray;
 }
@@ -73,6 +75,7 @@
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     NSString *className = [[self.dataArray objectAtIndex:indexPath.row] valueForKey:@"class"];
     [self.navigationController pushViewController:[NSClassFromString(className) new] animated:YES];
+    
     
 }
 @end

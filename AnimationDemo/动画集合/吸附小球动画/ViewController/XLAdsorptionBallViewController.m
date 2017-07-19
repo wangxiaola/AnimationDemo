@@ -36,7 +36,11 @@
     ]];
     [self.animationView startAnimation];
 }
-
+- (void)dealloc
+{
+    [self.animationView removeFromSuperview];
+    self.animationView = nil;
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

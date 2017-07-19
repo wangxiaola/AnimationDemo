@@ -256,4 +256,10 @@
     [self.displayLink invalidate];
     self.displayLink = nil;
 }
+- (void)dealloc
+{
+    [self.contenView removeFromSuperview];
+    self.contenView = nil;
+    [self destructionDisplayLink];
+}
 @end
