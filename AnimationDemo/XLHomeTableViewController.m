@@ -23,7 +23,8 @@
     {
         _dataArray = [NSMutableArray arrayWithObjects:
   @{@"name":@"吸附小球",@"class":@"XLAdsorptionBallViewController"},
-  @{@"name":@"视图更新动画",@"class":@"XLViewUpdataViewController"},nil];
+  @{@"name":@"视图更新动画",@"class":@"XLViewUpdataViewController"},
+  @{@"name":@"播放按钮动画",@"class":@"XLPlayButtonViewController"},nil];
     }
     return _dataArray;
 }

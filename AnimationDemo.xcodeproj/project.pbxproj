@@ -18,6 +18,9 @@
 		3B6142BC1F18975600237B63 /* XLPointMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6142BB1F18975600237B63 /* XLPointMode.m */; };
 		3B6142BF1F18979500237B63 /* XLLineMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6142BE1F18979500237B63 /* XLLineMode.m */; };
 		3B6142C21F1897EE00237B63 /* XlAdsorptionBallBaseMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6142C11F1897EE00237B63 /* XlAdsorptionBallBaseMode.m */; };
+		3B9C58E81F4444C00028919B /* XLPlayButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C58E71F4444C00028919B /* XLPlayButtonViewController.m */; };
+		3B9C58F01F4445170028919B /* iQiYiPlayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C58EC1F4445170028919B /* iQiYiPlayButton.m */; };
+		3B9C58F11F4445170028919B /* YouKuPlayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C58EF1F4445170028919B /* YouKuPlayButton.m */; };
 		3BCA18DB1F1F368D00654587 /* 02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BCA18D91F1F368D00654587 /* 02.jpg */; };
 		3BCA18DC1F1F368D00654587 /* 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BCA18DA1F1F368D00654587 /* 01.jpg */; };
 		3BCA18E71F1F37F700654587 /* XLViewUpdataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BCA18E51F1F37F700654587 /* XLViewUpdataViewController.m */; };
@@ -45,6 +48,12 @@
 		3B6142BE1F18979500237B63 /* XLLineMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLLineMode.m; sourceTree = "<group>"; };
 		3B6142C01F1897EE00237B63 /* XlAdsorptionBallBaseMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XlAdsorptionBallBaseMode.h; sourceTree = "<group>"; };
 		3B6142C11F1897EE00237B63 /* XlAdsorptionBallBaseMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XlAdsorptionBallBaseMode.m; sourceTree = "<group>"; };
+		3B9C58E61F4444C00028919B /* XLPlayButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPlayButtonViewController.h; sourceTree = "<group>"; };
+		3B9C58E71F4444C00028919B /* XLPlayButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPlayButtonViewController.m; sourceTree = "<group>"; };
+		3B9C58EB1F4445170028919B /* iQiYiPlayButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iQiYiPlayButton.h; sourceTree = "<group>"; };
+		3B9C58EC1F4445170028919B /* iQiYiPlayButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iQiYiPlayButton.m; sourceTree = "<group>"; };
+		3B9C58EE1F4445170028919B /* YouKuPlayButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouKuPlayButton.h; sourceTree = "<group>"; };
+		3B9C58EF1F4445170028919B /* YouKuPlayButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouKuPlayButton.m; sourceTree = "<group>"; };
 		3BCA18D91F1F368D00654587 /* 02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 02.jpg; sourceTree = "<group>"; };
 		3BCA18DA1F1F368D00654587 /* 01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpg; sourceTree = "<group>"; };
 		3BCA18E41F1F37F700654587 /* XLViewUpdataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLViewUpdataViewController.h; sourceTree = "<group>"; };
@@ -107,6 +116,7 @@
 		3B6142AE1F18691A00237B63 /* 动画集合 */ = {
 			isa = PBXGroup;
 			children = (
+				3B9C58E51F4444680028919B /* 播放按钮动画 */,
 				3BCA18D11F1F35F400654587 /* 视图更换动画 */,
 				3B6142AF1F18691A00237B63 /* 吸附小球动画 */,
 			);
@@ -160,6 +170,43 @@
 				3B6142B51F18691A00237B63 /* XLAdsorptionBallViewController.m */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		3B9C58E51F4444680028919B /* 播放按钮动画 */ = {
+			isa = PBXGroup;
+			children = (
+				3B9C58E91F4445120028919B /* view */,
+				3B9C58E61F4444C00028919B /* XLPlayButtonViewController.h */,
+				3B9C58E71F4444C00028919B /* XLPlayButtonViewController.m */,
+			);
+			path = "播放按钮动画";
+			sourceTree = "<group>";
+		};
+		3B9C58E91F4445120028919B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				3B9C58EA1F4445170028919B /* iQiYiPlayButton */,
+				3B9C58ED1F4445170028919B /* YouKuPlayButton */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		3B9C58EA1F4445170028919B /* iQiYiPlayButton */ = {
+			isa = PBXGroup;
+			children = (
+				3B9C58EB1F4445170028919B /* iQiYiPlayButton.h */,
+				3B9C58EC1F4445170028919B /* iQiYiPlayButton.m */,
+			);
+			path = iQiYiPlayButton;
+			sourceTree = "<group>";
+		};
+		3B9C58ED1F4445170028919B /* YouKuPlayButton */ = {
+			isa = PBXGroup;
+			children = (
+				3B9C58EE1F4445170028919B /* YouKuPlayButton.h */,
+				3B9C58EF1F4445170028919B /* YouKuPlayButton.m */,
+			);
+			path = YouKuPlayButton;
 			sourceTree = "<group>";
 		};
 		3BCA18D11F1F35F400654587 /* 视图更换动画 */ = {
@@ -283,9 +330,12 @@
 			files = (
 				3BCA18E71F1F37F700654587 /* XLViewUpdataViewController.m in Sources */,
 				3B6142B61F18691A00237B63 /* XLAdsorptionBallViewController.m in Sources */,
+				3B9C58F01F4445170028919B /* iQiYiPlayButton.m in Sources */,
+				3B9C58E81F4444C00028919B /* XLPlayButtonViewController.m in Sources */,
 				3B6142BC1F18975600237B63 /* XLPointMode.m in Sources */,
 				3B6142701F18683700237B63 /* AppDelegate.m in Sources */,
 				3B6142B91F18732700237B63 /* XLAdsorptionBallView.m in Sources */,
+				3B9C58F11F4445170028919B /* YouKuPlayButton.m in Sources */,
 				3B61426D1F18683700237B63 /* main.m in Sources */,
 				3B6142BF1F18979500237B63 /* XLLineMode.m in Sources */,
 				3B6142841F18686100237B63 /* XLHomeTableViewController.m in Sources */,
