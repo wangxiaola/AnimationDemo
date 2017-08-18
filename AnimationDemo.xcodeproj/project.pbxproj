@@ -21,6 +21,12 @@
 		3B9C58E81F4444C00028919B /* XLPlayButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C58E71F4444C00028919B /* XLPlayButtonViewController.m */; };
 		3B9C58F01F4445170028919B /* iQiYiPlayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C58EC1F4445170028919B /* iQiYiPlayButton.m */; };
 		3B9C58F11F4445170028919B /* YouKuPlayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C58EF1F4445170028919B /* YouKuPlayButton.m */; };
+		3BC8F5F31F4681E200EF709C /* ZKBezierPathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC8F5F21F4681E200EF709C /* ZKBezierPathViewController.m */; };
+		3BC8F5F61F4681F100EF709C /* RYCuteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC8F5F51F4681F100EF709C /* RYCuteView.m */; };
+		3BC8F5FC1F46834F00EF709C /* ZKEmitterLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC8F5FB1F46834F00EF709C /* ZKEmitterLayerViewController.m */; };
+		3BC8F6001F46836400EF709C /* Sparkle.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BC8F5FD1F46836400EF709C /* Sparkle.png */; };
+		3BC8F6011F46836400EF709C /* WclEmitterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC8F5FF1F46836400EF709C /* WclEmitterButton.m */; };
+		3BC8F6071F4684B300EF709C /* ZKReplicatorLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC8F6061F4684B300EF709C /* ZKReplicatorLayerViewController.m */; };
 		3BCA18DB1F1F368D00654587 /* 02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BCA18D91F1F368D00654587 /* 02.jpg */; };
 		3BCA18DC1F1F368D00654587 /* 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BCA18DA1F1F368D00654587 /* 01.jpg */; };
 		3BCA18E71F1F37F700654587 /* XLViewUpdataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BCA18E51F1F37F700654587 /* XLViewUpdataViewController.m */; };
@@ -54,6 +60,17 @@
 		3B9C58EC1F4445170028919B /* iQiYiPlayButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iQiYiPlayButton.m; sourceTree = "<group>"; };
 		3B9C58EE1F4445170028919B /* YouKuPlayButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouKuPlayButton.h; sourceTree = "<group>"; };
 		3B9C58EF1F4445170028919B /* YouKuPlayButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouKuPlayButton.m; sourceTree = "<group>"; };
+		3BC8F5F11F4681E200EF709C /* ZKBezierPathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKBezierPathViewController.h; sourceTree = "<group>"; };
+		3BC8F5F21F4681E200EF709C /* ZKBezierPathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKBezierPathViewController.m; sourceTree = "<group>"; };
+		3BC8F5F41F4681F100EF709C /* RYCuteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYCuteView.h; sourceTree = "<group>"; };
+		3BC8F5F51F4681F100EF709C /* RYCuteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYCuteView.m; sourceTree = "<group>"; };
+		3BC8F5FA1F46834F00EF709C /* ZKEmitterLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKEmitterLayerViewController.h; sourceTree = "<group>"; };
+		3BC8F5FB1F46834F00EF709C /* ZKEmitterLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKEmitterLayerViewController.m; sourceTree = "<group>"; };
+		3BC8F5FD1F46836400EF709C /* Sparkle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sparkle.png; sourceTree = "<group>"; };
+		3BC8F5FE1F46836400EF709C /* WclEmitterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WclEmitterButton.h; sourceTree = "<group>"; };
+		3BC8F5FF1F46836400EF709C /* WclEmitterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WclEmitterButton.m; sourceTree = "<group>"; };
+		3BC8F6051F4684B300EF709C /* ZKReplicatorLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKReplicatorLayerViewController.h; sourceTree = "<group>"; };
+		3BC8F6061F4684B300EF709C /* ZKReplicatorLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKReplicatorLayerViewController.m; sourceTree = "<group>"; };
 		3BCA18D91F1F368D00654587 /* 02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 02.jpg; sourceTree = "<group>"; };
 		3BCA18DA1F1F368D00654587 /* 01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpg; sourceTree = "<group>"; };
 		3BCA18E41F1F37F700654587 /* XLViewUpdataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLViewUpdataViewController.h; sourceTree = "<group>"; };
@@ -116,6 +133,9 @@
 		3B6142AE1F18691A00237B63 /* 动画集合 */ = {
 			isa = PBXGroup;
 			children = (
+				3BC8F6021F46849A00EF709C /* 音频波动 */,
+				3BC8F5F71F46833600EF709C /* 点赞粒子效果 */,
+				3BC8F5EE1F4681C100EF709C /* 果冻动画 */,
 				3B9C58E51F4444680028919B /* 播放按钮动画 */,
 				3BCA18D11F1F35F400654587 /* 视图更换动画 */,
 				3B6142AF1F18691A00237B63 /* 吸附小球动画 */,
@@ -207,6 +227,86 @@
 				3B9C58EF1F4445170028919B /* YouKuPlayButton.m */,
 			);
 			path = YouKuPlayButton;
+			sourceTree = "<group>";
+		};
+		3BC8F5EE1F4681C100EF709C /* 果冻动画 */ = {
+			isa = PBXGroup;
+			children = (
+				3BC8F5EF1F4681C100EF709C /* view */,
+				3BC8F5F01F4681C100EF709C /* ViewController */,
+				3BC8F5F11F4681E200EF709C /* ZKBezierPathViewController.h */,
+				3BC8F5F21F4681E200EF709C /* ZKBezierPathViewController.m */,
+			);
+			path = "果冻动画";
+			sourceTree = "<group>";
+		};
+		3BC8F5EF1F4681C100EF709C /* view */ = {
+			isa = PBXGroup;
+			children = (
+				3BC8F5F41F4681F100EF709C /* RYCuteView.h */,
+				3BC8F5F51F4681F100EF709C /* RYCuteView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		3BC8F5F01F4681C100EF709C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		3BC8F5F71F46833600EF709C /* 点赞粒子效果 */ = {
+			isa = PBXGroup;
+			children = (
+				3BC8F5F81F46833600EF709C /* view */,
+				3BC8F5F91F46833600EF709C /* ViewController */,
+			);
+			path = "点赞粒子效果";
+			sourceTree = "<group>";
+		};
+		3BC8F5F81F46833600EF709C /* view */ = {
+			isa = PBXGroup;
+			children = (
+				3BC8F5FD1F46836400EF709C /* Sparkle.png */,
+				3BC8F5FE1F46836400EF709C /* WclEmitterButton.h */,
+				3BC8F5FF1F46836400EF709C /* WclEmitterButton.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		3BC8F5F91F46833600EF709C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3BC8F5FA1F46834F00EF709C /* ZKEmitterLayerViewController.h */,
+				3BC8F5FB1F46834F00EF709C /* ZKEmitterLayerViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		3BC8F6021F46849A00EF709C /* 音频波动 */ = {
+			isa = PBXGroup;
+			children = (
+				3BC8F6031F46849A00EF709C /* view */,
+				3BC8F6041F46849A00EF709C /* ViewController */,
+			);
+			path = "音频波动";
+			sourceTree = "<group>";
+		};
+		3BC8F6031F46849A00EF709C /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		3BC8F6041F46849A00EF709C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3BC8F6051F4684B300EF709C /* ZKReplicatorLayerViewController.h */,
+				3BC8F6061F4684B300EF709C /* ZKReplicatorLayerViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		3BCA18D11F1F35F400654587 /* 视图更换动画 */ = {
@@ -317,6 +417,7 @@
 				3B6142781F18683700237B63 /* Assets.xcassets in Resources */,
 				3B6142761F18683700237B63 /* Main.storyboard in Resources */,
 				3BCA18DB1F1F368D00654587 /* 02.jpg in Resources */,
+				3BC8F6001F46836400EF709C /* Sparkle.png in Resources */,
 				3BCA18E81F1F37F700654587 /* XLViewUpdataViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,14 +430,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BCA18E71F1F37F700654587 /* XLViewUpdataViewController.m in Sources */,
+				3BC8F5F31F4681E200EF709C /* ZKBezierPathViewController.m in Sources */,
 				3B6142B61F18691A00237B63 /* XLAdsorptionBallViewController.m in Sources */,
 				3B9C58F01F4445170028919B /* iQiYiPlayButton.m in Sources */,
 				3B9C58E81F4444C00028919B /* XLPlayButtonViewController.m in Sources */,
 				3B6142BC1F18975600237B63 /* XLPointMode.m in Sources */,
 				3B6142701F18683700237B63 /* AppDelegate.m in Sources */,
+				3BC8F6071F4684B300EF709C /* ZKReplicatorLayerViewController.m in Sources */,
 				3B6142B91F18732700237B63 /* XLAdsorptionBallView.m in Sources */,
 				3B9C58F11F4445170028919B /* YouKuPlayButton.m in Sources */,
+				3BC8F6011F46836400EF709C /* WclEmitterButton.m in Sources */,
 				3B61426D1F18683700237B63 /* main.m in Sources */,
+				3BC8F5FC1F46834F00EF709C /* ZKEmitterLayerViewController.m in Sources */,
+				3BC8F5F61F4681F100EF709C /* RYCuteView.m in Sources */,
 				3B6142BF1F18979500237B63 /* XLLineMode.m in Sources */,
 				3B6142841F18686100237B63 /* XLHomeTableViewController.m in Sources */,
 				3B6142C21F1897EE00237B63 /* XlAdsorptionBallBaseMode.m in Sources */,

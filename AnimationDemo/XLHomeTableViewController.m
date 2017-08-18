@@ -24,7 +24,10 @@
         _dataArray = [NSMutableArray arrayWithObjects:
   @{@"name":@"吸附小球",@"class":@"XLAdsorptionBallViewController"},
   @{@"name":@"视图更新动画",@"class":@"XLViewUpdataViewController"},
-  @{@"name":@"播放按钮动画",@"class":@"XLPlayButtonViewController"},nil];
+  @{@"name":@"播放按钮动画",@"class":@"XLPlayButtonViewController"},
+  @{@"name":@"果冻动画",@"class":@"ZKBezierPathViewController"},
+  @{@"name":@"点赞粒子效果",@"class":@"ZKEmitterLayerViewController"},
+  @{@"name":@"音频波动动画",@"class":@"ZKReplicatorLayerViewController"},nil];
     }
     return _dataArray;
 }
