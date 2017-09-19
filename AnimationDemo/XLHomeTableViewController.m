@@ -28,7 +28,8 @@
   @{@"name":@"果冻动画",@"class":@"ZKBezierPathViewController"},
   @{@"name":@"点赞粒子效果",@"class":@"ZKEmitterLayerViewController"},
   @{@"name":@"音频波动动画",@"class":@"ZKReplicatorLayerViewController"},
-  @{@"name":@"CAEmitterLayer动画",@"class":@"XLCAEmitterLayerTableViewController"},nil];
+  @{@"name":@"CAEmitterLayer动画",@"class":@"XLCAEmitterLayerTableViewController"},
+  @{@"name":@"传感器集锦",@"class":@"XLSensorViewController"},nil];
     }
     return _dataArray;
 }

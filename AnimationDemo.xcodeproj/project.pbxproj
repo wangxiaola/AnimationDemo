@@ -31,6 +31,25 @@
 		3B910DC01F67D50D00FFCD8E /* XLFlameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B910DBF1F67D50D00FFCD8E /* XLFlameViewController.m */; };
 		3B910DC31F67D5F400FFCD8E /* XLStarRainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B910DC21F67D5F400FFCD8E /* XLStarRainViewController.m */; };
 		3B910DC61F67D68600FFCD8E /* XLFireworksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B910DC51F67D68600FFCD8E /* XLFireworksViewController.m */; };
+		3B9740EA1F70B59A0014A790 /* qiaoba.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3B9740E41F70B59A0014A790 /* qiaoba.jpeg */; };
+		3B9740EB1F70B59A0014A790 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B9740E51F70B59A0014A790 /* ball.png */; };
+		3B9740EC1F70B59A0014A790 /* 指纹解锁.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B9740E61F70B59A0014A790 /* 指纹解锁.png */; };
+		3B9740ED1F70B59A0014A790 /* eyes.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B9740E71F70B59A0014A790 /* eyes.png */; };
+		3B9740EE1F70B59A0014A790 /* yanjing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B9740E81F70B59A0014A790 /* yanjing.jpg */; };
+		3B9740EF1F70B59A0014A790 /* SeeYouAgain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B9740E91F70B59A0014A790 /* SeeYouAgain.mp3 */; };
+		3B9740FE1F70B5A40014A790 /* FingerprintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9740F11F70B5A40014A790 /* FingerprintViewController.m */; };
+		3B9740FF1F70B5A40014A790 /* DeviceMotionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9740F31F70B5A40014A790 /* DeviceMotionViewController.m */; };
+		3B9741001F70B5A40014A790 /* AccelerometerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9740F51F70B5A40014A790 /* AccelerometerViewController.m */; };
+		3B9741011F70B5A40014A790 /* DistanceSensorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9740F71F70B5A40014A790 /* DistanceSensorViewController.m */; };
+		3B9741021F70B5A40014A790 /* LightSensitiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9740F91F70B5A40014A790 /* LightSensitiveViewController.m */; };
+		3B9741031F70B5A40014A790 /* CompassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9740FB1F70B5A40014A790 /* CompassViewController.m */; };
+		3B9741041F70B5A40014A790 /* GyroscopeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9740FD1F70B5A40014A790 /* GyroscopeViewController.m */; };
+		3B97410F1F70B5B10014A790 /* UIImageView+Tranform3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9741061F70B5B10014A790 /* UIImageView+Tranform3D.m */; };
+		3B9741101F70B5B10014A790 /* BezierPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9741081F70B5B10014A790 /* BezierPathView.m */; };
+		3B9741111F70B5B10014A790 /* WLBallTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B97410A1F70B5B10014A790 /* WLBallTool.m */; };
+		3B9741121F70B5B10014A790 /* WLBallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B97410C1F70B5B10014A790 /* WLBallView.m */; };
+		3B9741131F70B5B10014A790 /* ScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B97410E1F70B5B10014A790 /* ScaleView.m */; };
+		3B9741161F70B5EF0014A790 /* XLSensorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9741151F70B5EF0014A790 /* XLSensorViewController.m */; };
 		3B9C58E81F4444C00028919B /* XLPlayButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C58E71F4444C00028919B /* XLPlayButtonViewController.m */; };
 		3B9C58F01F4445170028919B /* iQiYiPlayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C58EC1F4445170028919B /* iQiYiPlayButton.m */; };
 		3B9C58F11F4445170028919B /* YouKuPlayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C58EF1F4445170028919B /* YouKuPlayButton.m */; };
@@ -86,6 +105,38 @@
 		3B910DC21F67D5F400FFCD8E /* XLStarRainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLStarRainViewController.m; sourceTree = "<group>"; };
 		3B910DC41F67D68600FFCD8E /* XLFireworksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFireworksViewController.h; sourceTree = "<group>"; };
 		3B910DC51F67D68600FFCD8E /* XLFireworksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFireworksViewController.m; sourceTree = "<group>"; };
+		3B9740E41F70B59A0014A790 /* qiaoba.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = qiaoba.jpeg; sourceTree = "<group>"; };
+		3B9740E51F70B59A0014A790 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		3B9740E61F70B59A0014A790 /* 指纹解锁.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "指纹解锁.png"; sourceTree = "<group>"; };
+		3B9740E71F70B59A0014A790 /* eyes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eyes.png; sourceTree = "<group>"; };
+		3B9740E81F70B59A0014A790 /* yanjing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yanjing.jpg; sourceTree = "<group>"; };
+		3B9740E91F70B59A0014A790 /* SeeYouAgain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SeeYouAgain.mp3; sourceTree = "<group>"; };
+		3B9740F01F70B5A40014A790 /* FingerprintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerprintViewController.h; sourceTree = "<group>"; };
+		3B9740F11F70B5A40014A790 /* FingerprintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FingerprintViewController.m; sourceTree = "<group>"; };
+		3B9740F21F70B5A40014A790 /* DeviceMotionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceMotionViewController.h; sourceTree = "<group>"; };
+		3B9740F31F70B5A40014A790 /* DeviceMotionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceMotionViewController.m; sourceTree = "<group>"; };
+		3B9740F41F70B5A40014A790 /* AccelerometerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerometerViewController.h; sourceTree = "<group>"; };
+		3B9740F51F70B5A40014A790 /* AccelerometerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerometerViewController.m; sourceTree = "<group>"; };
+		3B9740F61F70B5A40014A790 /* DistanceSensorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistanceSensorViewController.h; sourceTree = "<group>"; };
+		3B9740F71F70B5A40014A790 /* DistanceSensorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistanceSensorViewController.m; sourceTree = "<group>"; };
+		3B9740F81F70B5A40014A790 /* LightSensitiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightSensitiveViewController.h; sourceTree = "<group>"; };
+		3B9740F91F70B5A40014A790 /* LightSensitiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightSensitiveViewController.m; sourceTree = "<group>"; };
+		3B9740FA1F70B5A40014A790 /* CompassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompassViewController.h; sourceTree = "<group>"; };
+		3B9740FB1F70B5A40014A790 /* CompassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompassViewController.m; sourceTree = "<group>"; };
+		3B9740FC1F70B5A40014A790 /* GyroscopeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GyroscopeViewController.h; sourceTree = "<group>"; };
+		3B9740FD1F70B5A40014A790 /* GyroscopeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GyroscopeViewController.m; sourceTree = "<group>"; };
+		3B9741051F70B5B10014A790 /* UIImageView+Tranform3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Tranform3D.h"; sourceTree = "<group>"; };
+		3B9741061F70B5B10014A790 /* UIImageView+Tranform3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Tranform3D.m"; sourceTree = "<group>"; };
+		3B9741071F70B5B10014A790 /* BezierPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierPathView.h; sourceTree = "<group>"; };
+		3B9741081F70B5B10014A790 /* BezierPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierPathView.m; sourceTree = "<group>"; };
+		3B9741091F70B5B10014A790 /* WLBallTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLBallTool.h; sourceTree = "<group>"; };
+		3B97410A1F70B5B10014A790 /* WLBallTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLBallTool.m; sourceTree = "<group>"; };
+		3B97410B1F70B5B10014A790 /* WLBallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLBallView.h; sourceTree = "<group>"; };
+		3B97410C1F70B5B10014A790 /* WLBallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLBallView.m; sourceTree = "<group>"; };
+		3B97410D1F70B5B10014A790 /* ScaleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleView.h; sourceTree = "<group>"; };
+		3B97410E1F70B5B10014A790 /* ScaleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleView.m; sourceTree = "<group>"; };
+		3B9741141F70B5EF0014A790 /* XLSensorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSensorViewController.h; sourceTree = "<group>"; };
+		3B9741151F70B5EF0014A790 /* XLSensorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSensorViewController.m; sourceTree = "<group>"; };
 		3B9C58E61F4444C00028919B /* XLPlayButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPlayButtonViewController.h; sourceTree = "<group>"; };
 		3B9C58E71F4444C00028919B /* XLPlayButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPlayButtonViewController.m; sourceTree = "<group>"; };
 		3B9C58EB1F4445170028919B /* iQiYiPlayButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iQiYiPlayButton.h; sourceTree = "<group>"; };
@@ -165,6 +216,7 @@
 		3B6142AE1F18691A00237B63 /* 动画集合 */ = {
 			isa = PBXGroup;
 			children = (
+				3B9740DF1F70B58E0014A790 /* 传感器集锦 */,
 				3B910DA41F67D03000FFCD8E /* CAEmitterLayer动画 */,
 				3BC8F6021F46849A00EF709C /* 音频波动 */,
 				3BC8F5F71F46833600EF709C /* 点赞粒子效果 */,
@@ -265,6 +317,77 @@
 				3B910DB01F67D2AD00FFCD8E /* DazTriangle.png */,
 			);
 			path = images;
+			sourceTree = "<group>";
+		};
+		3B9740DF1F70B58E0014A790 /* 传感器集锦 */ = {
+			isa = PBXGroup;
+			children = (
+				3B9740E01F70B58E0014A790 /* base */,
+				3B9740E11F70B58E0014A790 /* image */,
+				3B9740E21F70B58E0014A790 /* view */,
+				3B9740E31F70B58E0014A790 /* ViewController */,
+			);
+			path = "传感器集锦";
+			sourceTree = "<group>";
+		};
+		3B9740E01F70B58E0014A790 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				3B9741051F70B5B10014A790 /* UIImageView+Tranform3D.h */,
+				3B9741061F70B5B10014A790 /* UIImageView+Tranform3D.m */,
+				3B9741071F70B5B10014A790 /* BezierPathView.h */,
+				3B9741081F70B5B10014A790 /* BezierPathView.m */,
+				3B9741091F70B5B10014A790 /* WLBallTool.h */,
+				3B97410A1F70B5B10014A790 /* WLBallTool.m */,
+				3B97410B1F70B5B10014A790 /* WLBallView.h */,
+				3B97410C1F70B5B10014A790 /* WLBallView.m */,
+				3B97410D1F70B5B10014A790 /* ScaleView.h */,
+				3B97410E1F70B5B10014A790 /* ScaleView.m */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		3B9740E11F70B58E0014A790 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				3B9740E41F70B59A0014A790 /* qiaoba.jpeg */,
+				3B9740E51F70B59A0014A790 /* ball.png */,
+				3B9740E61F70B59A0014A790 /* 指纹解锁.png */,
+				3B9740E71F70B59A0014A790 /* eyes.png */,
+				3B9740E81F70B59A0014A790 /* yanjing.jpg */,
+				3B9740E91F70B59A0014A790 /* SeeYouAgain.mp3 */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		3B9740E21F70B58E0014A790 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		3B9740E31F70B58E0014A790 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3B9740F01F70B5A40014A790 /* FingerprintViewController.h */,
+				3B9740F11F70B5A40014A790 /* FingerprintViewController.m */,
+				3B9740F21F70B5A40014A790 /* DeviceMotionViewController.h */,
+				3B9740F31F70B5A40014A790 /* DeviceMotionViewController.m */,
+				3B9740F41F70B5A40014A790 /* AccelerometerViewController.h */,
+				3B9740F51F70B5A40014A790 /* AccelerometerViewController.m */,
+				3B9740F61F70B5A40014A790 /* DistanceSensorViewController.h */,
+				3B9740F71F70B5A40014A790 /* DistanceSensorViewController.m */,
+				3B9740F81F70B5A40014A790 /* LightSensitiveViewController.h */,
+				3B9740F91F70B5A40014A790 /* LightSensitiveViewController.m */,
+				3B9740FA1F70B5A40014A790 /* CompassViewController.h */,
+				3B9740FB1F70B5A40014A790 /* CompassViewController.m */,
+				3B9740FC1F70B5A40014A790 /* GyroscopeViewController.h */,
+				3B9740FD1F70B5A40014A790 /* GyroscopeViewController.m */,
+				3B9741141F70B5EF0014A790 /* XLSensorViewController.h */,
+				3B9741151F70B5EF0014A790 /* XLSensorViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		3B9C58E51F4444680028919B /* 播放按钮动画 */ = {
@@ -461,6 +584,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = YC78659G27;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -491,12 +619,18 @@
 				3BCA18DC1F1F368D00654587 /* 01.jpg in Resources */,
 				3B910DB61F67D2AD00FFCD8E /* DazStarOutline.png in Resources */,
 				3B61427B1F18683700237B63 /* LaunchScreen.storyboard in Resources */,
+				3B9740EA1F70B59A0014A790 /* qiaoba.jpeg in Resources */,
+				3B9740EC1F70B59A0014A790 /* 指纹解锁.png in Resources */,
+				3B9740EE1F70B59A0014A790 /* yanjing.jpg in Resources */,
 				3B6142781F18683700237B63 /* Assets.xcassets in Resources */,
+				3B9740EB1F70B59A0014A790 /* ball.png in Resources */,
 				3B910DB11F67D2AD00FFCD8E /* DazFire.png in Resources */,
 				3B910DB41F67D2AD00FFCD8E /* DazRing.png in Resources */,
 				3B6142761F18683700237B63 /* Main.storyboard in Resources */,
+				3B9740ED1F70B59A0014A790 /* eyes.png in Resources */,
 				3B910DB21F67D2AD00FFCD8E /* DazFlake.png in Resources */,
 				3BCA18DB1F1F368D00654587 /* 02.jpg in Resources */,
+				3B9740EF1F70B59A0014A790 /* SeeYouAgain.mp3 in Resources */,
 				3B910DB51F67D2AD00FFCD8E /* DazSmoke.png in Resources */,
 				3B910DB71F67D2AD00FFCD8E /* DazTriangle.png in Resources */,
 				3BC8F6001F46836400EF709C /* Sparkle.png in Resources */,
@@ -511,27 +645,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B9741031F70B5A40014A790 /* CompassViewController.m in Sources */,
 				3B910DBD1F67D36D00FFCD8E /* XLSmokeViewController.m in Sources */,
+				3B9740FF1F70B5A40014A790 /* DeviceMotionViewController.m in Sources */,
 				3BCA18E71F1F37F700654587 /* XLViewUpdataViewController.m in Sources */,
 				3BC8F5F31F4681E200EF709C /* ZKBezierPathViewController.m in Sources */,
 				3B6142B61F18691A00237B63 /* XLAdsorptionBallViewController.m in Sources */,
 				3B9C58F01F4445170028919B /* iQiYiPlayButton.m in Sources */,
 				3B910DC61F67D68600FFCD8E /* XLFireworksViewController.m in Sources */,
 				3B9C58E81F4444C00028919B /* XLPlayButtonViewController.m in Sources */,
+				3B9741011F70B5A40014A790 /* DistanceSensorViewController.m in Sources */,
 				3B6142BC1F18975600237B63 /* XLPointMode.m in Sources */,
 				3B6142701F18683700237B63 /* AppDelegate.m in Sources */,
 				3BC8F6071F4684B300EF709C /* ZKReplicatorLayerViewController.m in Sources */,
 				3B6142B91F18732700237B63 /* XLAdsorptionBallView.m in Sources */,
 				3B910DC01F67D50D00FFCD8E /* XLFlameViewController.m in Sources */,
+				3B9741021F70B5A40014A790 /* LightSensitiveViewController.m in Sources */,
+				3B9741161F70B5EF0014A790 /* XLSensorViewController.m in Sources */,
 				3B9C58F11F4445170028919B /* YouKuPlayButton.m in Sources */,
+				3B9741001F70B5A40014A790 /* AccelerometerViewController.m in Sources */,
 				3B910DBA1F67D2DB00FFCD8E /* XLSnowViewController.m in Sources */,
 				3BC8F6011F46836400EF709C /* WclEmitterButton.m in Sources */,
+				3B9741131F70B5B10014A790 /* ScaleView.m in Sources */,
+				3B9741111F70B5B10014A790 /* WLBallTool.m in Sources */,
+				3B9741101F70B5B10014A790 /* BezierPathView.m in Sources */,
 				3B61426D1F18683700237B63 /* main.m in Sources */,
 				3BC8F5FC1F46834F00EF709C /* ZKEmitterLayerViewController.m in Sources */,
+				3B97410F1F70B5B10014A790 /* UIImageView+Tranform3D.m in Sources */,
+				3B9741041F70B5A40014A790 /* GyroscopeViewController.m in Sources */,
+				3B9741121F70B5B10014A790 /* WLBallView.m in Sources */,
 				3BC8F5F61F4681F100EF709C /* RYCuteView.m in Sources */,
 				3B6142BF1F18979500237B63 /* XLLineMode.m in Sources */,
 				3B910DC31F67D5F400FFCD8E /* XLStarRainViewController.m in Sources */,
 				3B6142841F18686100237B63 /* XLHomeTableViewController.m in Sources */,
+				3B9740FE1F70B5A40014A790 /* FingerprintViewController.m in Sources */,
 				3B910DA71F67D06900FFCD8E /* XLCAEmitterLayerTableViewController.m in Sources */,
 				3B6142C21F1897EE00237B63 /* XlAdsorptionBallBaseMode.m in Sources */,
 			);
