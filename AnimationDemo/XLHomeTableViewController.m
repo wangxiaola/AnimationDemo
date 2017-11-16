@@ -29,7 +29,8 @@
   @{@"name":@"点赞粒子效果",@"class":@"ZKEmitterLayerViewController"},
   @{@"name":@"音频波动动画",@"class":@"ZKReplicatorLayerViewController"},
   @{@"name":@"CAEmitterLayer动画",@"class":@"XLCAEmitterLayerTableViewController"},
-  @{@"name":@"传感器集锦",@"class":@"XLSensorViewController"},nil];
+  @{@"name":@"传感器集锦",@"class":@"XLSensorViewController"},
+  @{@"name":@"cell加载动画",@"class":@"XLTableViewSelectViewController"},nil];
     }
     return _dataArray;
 }

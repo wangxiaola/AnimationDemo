@@ -53,6 +53,12 @@
 		3B9C58E81F4444C00028919B /* XLPlayButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C58E71F4444C00028919B /* XLPlayButtonViewController.m */; };
 		3B9C58F01F4445170028919B /* iQiYiPlayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C58EC1F4445170028919B /* iQiYiPlayButton.m */; };
 		3B9C58F11F4445170028919B /* YouKuPlayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C58EF1F4445170028919B /* YouKuPlayButton.m */; };
+		3BAD71E41FBD28D900181864 /* TableViewAnimationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAD71DF1FBD28D900181864 /* TableViewAnimationKit.m */; };
+		3BAD71E51FBD28D900181864 /* UITableView+XSAnimationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAD71E31FBD28D900181864 /* UITableView+XSAnimationKit.m */; };
+		3BAD71E81FBD292B00181864 /* XLTableViewSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAD71E71FBD292B00181864 /* XLTableViewSelectViewController.m */; };
+		3BAD71EB1FBD293500181864 /* XLTableViewAnimationKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAD71EA1FBD293500181864 /* XLTableViewAnimationKitViewController.m */; };
+		3BAD71F11FBD2ACF00181864 /* NSObject+WCQTopmostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAD71ED1FBD2ACF00181864 /* NSObject+WCQTopmostViewController.m */; };
+		3BAD71F21FBD2ACF00181864 /* UIScrollView+WCQForwarding.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAD71EE1FBD2ACF00181864 /* UIScrollView+WCQForwarding.m */; };
 		3BC8F5F31F4681E200EF709C /* ZKBezierPathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC8F5F21F4681E200EF709C /* ZKBezierPathViewController.m */; };
 		3BC8F5F61F4681F100EF709C /* RYCuteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC8F5F51F4681F100EF709C /* RYCuteView.m */; };
 		3BC8F5FC1F46834F00EF709C /* ZKEmitterLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC8F5FB1F46834F00EF709C /* ZKEmitterLayerViewController.m */; };
@@ -143,6 +149,20 @@
 		3B9C58EC1F4445170028919B /* iQiYiPlayButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iQiYiPlayButton.m; sourceTree = "<group>"; };
 		3B9C58EE1F4445170028919B /* YouKuPlayButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouKuPlayButton.h; sourceTree = "<group>"; };
 		3B9C58EF1F4445170028919B /* YouKuPlayButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouKuPlayButton.m; sourceTree = "<group>"; };
+		3BAD71DE1FBD28D900181864 /* TableViewAnimationKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewAnimationKit.h; sourceTree = "<group>"; };
+		3BAD71DF1FBD28D900181864 /* TableViewAnimationKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewAnimationKit.m; sourceTree = "<group>"; };
+		3BAD71E01FBD28D900181864 /* TableViewAnimationKitConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewAnimationKitConfig.h; sourceTree = "<group>"; };
+		3BAD71E11FBD28D900181864 /* TableViewAnimationKitHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewAnimationKitHeaders.h; sourceTree = "<group>"; };
+		3BAD71E21FBD28D900181864 /* UITableView+XSAnimationKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+XSAnimationKit.h"; sourceTree = "<group>"; };
+		3BAD71E31FBD28D900181864 /* UITableView+XSAnimationKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+XSAnimationKit.m"; sourceTree = "<group>"; };
+		3BAD71E61FBD292B00181864 /* XLTableViewSelectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLTableViewSelectViewController.h; sourceTree = "<group>"; };
+		3BAD71E71FBD292B00181864 /* XLTableViewSelectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLTableViewSelectViewController.m; sourceTree = "<group>"; };
+		3BAD71E91FBD293500181864 /* XLTableViewAnimationKitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLTableViewAnimationKitViewController.h; sourceTree = "<group>"; };
+		3BAD71EA1FBD293500181864 /* XLTableViewAnimationKitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLTableViewAnimationKitViewController.m; sourceTree = "<group>"; };
+		3BAD71ED1FBD2ACF00181864 /* NSObject+WCQTopmostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WCQTopmostViewController.m"; sourceTree = "<group>"; };
+		3BAD71EE1FBD2ACF00181864 /* UIScrollView+WCQForwarding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+WCQForwarding.m"; sourceTree = "<group>"; };
+		3BAD71EF1FBD2ACF00181864 /* UIScrollView+WCQForwarding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+WCQForwarding.h"; sourceTree = "<group>"; };
+		3BAD71F01FBD2ACF00181864 /* NSObject+WCQTopmostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WCQTopmostViewController.h"; sourceTree = "<group>"; };
 		3BC8F5F11F4681E200EF709C /* ZKBezierPathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKBezierPathViewController.h; sourceTree = "<group>"; };
 		3BC8F5F21F4681E200EF709C /* ZKBezierPathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKBezierPathViewController.m; sourceTree = "<group>"; };
 		3BC8F5F41F4681F100EF709C /* RYCuteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYCuteView.h; sourceTree = "<group>"; };
@@ -191,6 +211,7 @@
 		3B61426A1F18683700237B63 /* AnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3BAD71EC1FBD2AC800181864 /* 适配ScrollView */,
 				3B6142AE1F18691A00237B63 /* 动画集合 */,
 				3B61426E1F18683700237B63 /* AppDelegate.h */,
 				3B61426F1F18683700237B63 /* AppDelegate.m */,
@@ -216,6 +237,7 @@
 		3B6142AE1F18691A00237B63 /* 动画集合 */ = {
 			isa = PBXGroup;
 			children = (
+				3BAD71D91FBD273200181864 /* cell加载动画 */,
 				3B9740DF1F70B58E0014A790 /* 传感器集锦 */,
 				3B910DA41F67D03000FFCD8E /* CAEmitterLayer动画 */,
 				3BC8F6021F46849A00EF709C /* 音频波动 */,
@@ -425,6 +447,66 @@
 				3B9C58EF1F4445170028919B /* YouKuPlayButton.m */,
 			);
 			path = YouKuPlayButton;
+			sourceTree = "<group>";
+		};
+		3BAD71D91FBD273200181864 /* cell加载动画 */ = {
+			isa = PBXGroup;
+			children = (
+				3BAD71DA1FBD273200181864 /* tool */,
+				3BAD71DB1FBD273200181864 /* view */,
+				3BAD71DC1FBD273200181864 /* ViewController */,
+			);
+			path = "cell加载动画";
+			sourceTree = "<group>";
+		};
+		3BAD71DA1FBD273200181864 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				3BAD71DD1FBD28D900181864 /* TableViewAnimationKit */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+		3BAD71DB1FBD273200181864 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		3BAD71DC1FBD273200181864 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3BAD71E61FBD292B00181864 /* XLTableViewSelectViewController.h */,
+				3BAD71E71FBD292B00181864 /* XLTableViewSelectViewController.m */,
+				3BAD71E91FBD293500181864 /* XLTableViewAnimationKitViewController.h */,
+				3BAD71EA1FBD293500181864 /* XLTableViewAnimationKitViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		3BAD71DD1FBD28D900181864 /* TableViewAnimationKit */ = {
+			isa = PBXGroup;
+			children = (
+				3BAD71DE1FBD28D900181864 /* TableViewAnimationKit.h */,
+				3BAD71DF1FBD28D900181864 /* TableViewAnimationKit.m */,
+				3BAD71E01FBD28D900181864 /* TableViewAnimationKitConfig.h */,
+				3BAD71E11FBD28D900181864 /* TableViewAnimationKitHeaders.h */,
+				3BAD71E21FBD28D900181864 /* UITableView+XSAnimationKit.h */,
+				3BAD71E31FBD28D900181864 /* UITableView+XSAnimationKit.m */,
+			);
+			path = TableViewAnimationKit;
+			sourceTree = "<group>";
+		};
+		3BAD71EC1FBD2AC800181864 /* 适配ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				3BAD71F01FBD2ACF00181864 /* NSObject+WCQTopmostViewController.h */,
+				3BAD71ED1FBD2ACF00181864 /* NSObject+WCQTopmostViewController.m */,
+				3BAD71EF1FBD2ACF00181864 /* UIScrollView+WCQForwarding.h */,
+				3BAD71EE1FBD2ACF00181864 /* UIScrollView+WCQForwarding.m */,
+			);
+			path = "适配ScrollView";
 			sourceTree = "<group>";
 		};
 		3BC8F5EE1F4681C100EF709C /* 果冻动画 */ = {
@@ -653,16 +735,22 @@
 				3B6142B61F18691A00237B63 /* XLAdsorptionBallViewController.m in Sources */,
 				3B9C58F01F4445170028919B /* iQiYiPlayButton.m in Sources */,
 				3B910DC61F67D68600FFCD8E /* XLFireworksViewController.m in Sources */,
+				3BAD71EB1FBD293500181864 /* XLTableViewAnimationKitViewController.m in Sources */,
+				3BAD71E81FBD292B00181864 /* XLTableViewSelectViewController.m in Sources */,
+				3BAD71E41FBD28D900181864 /* TableViewAnimationKit.m in Sources */,
 				3B9C58E81F4444C00028919B /* XLPlayButtonViewController.m in Sources */,
+				3BAD71F21FBD2ACF00181864 /* UIScrollView+WCQForwarding.m in Sources */,
 				3B9741011F70B5A40014A790 /* DistanceSensorViewController.m in Sources */,
 				3B6142BC1F18975600237B63 /* XLPointMode.m in Sources */,
 				3B6142701F18683700237B63 /* AppDelegate.m in Sources */,
 				3BC8F6071F4684B300EF709C /* ZKReplicatorLayerViewController.m in Sources */,
 				3B6142B91F18732700237B63 /* XLAdsorptionBallView.m in Sources */,
 				3B910DC01F67D50D00FFCD8E /* XLFlameViewController.m in Sources */,
+				3BAD71E51FBD28D900181864 /* UITableView+XSAnimationKit.m in Sources */,
 				3B9741021F70B5A40014A790 /* LightSensitiveViewController.m in Sources */,
 				3B9741161F70B5EF0014A790 /* XLSensorViewController.m in Sources */,
 				3B9C58F11F4445170028919B /* YouKuPlayButton.m in Sources */,
+				3BAD71F11FBD2ACF00181864 /* NSObject+WCQTopmostViewController.m in Sources */,
 				3B9741001F70B5A40014A790 /* AccelerometerViewController.m in Sources */,
 				3B910DBA1F67D2DB00FFCD8E /* XLSnowViewController.m in Sources */,
 				3BC8F6011F46836400EF709C /* WclEmitterButton.m in Sources */,
