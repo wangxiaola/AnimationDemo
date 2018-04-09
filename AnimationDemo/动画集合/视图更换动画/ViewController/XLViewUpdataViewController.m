@@ -179,7 +179,7 @@ typedef enum : NSUInteger {
     4.kCAMediaTimingFunctionEaseInEaseOut（渐进渐出）：动画缓慢的进入，中间加速，然后减速的到达目的地。这个是默认的动画行为。
     */
     //设置运动速度
-    animation.timingFunction = kCAMediaTimingFunctionEaseInEaseOut;
+    animation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
     
     [view.layer addAnimation:animation forKey:@"animation"];
 }
